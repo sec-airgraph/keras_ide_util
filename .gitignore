@@ -1,0 +1,6 @@
+build
+*.egg
+*.egg-info
+*.pyc
+files.txt
+*.hdf5
