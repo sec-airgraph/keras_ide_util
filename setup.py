@@ -16,5 +16,6 @@ setup(
 		"console_scripts":[
 			"keras-ide-util=keras_ide_util.__main__:main"
 		]
-	}
+	},
+	zip_safe = False
 )

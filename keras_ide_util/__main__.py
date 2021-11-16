@@ -55,7 +55,7 @@ def main():
 	logger = logging.getLogger(__name__)
 	args = parser(logger)
 	logger.debug(os.getcwd())
-	from keras_ide_utils import KerasIdeUtils
+	from keras_ide_util.keras_ide_utils import KerasIdeUtils
 	utils = KerasIdeUtils(logger.getEffectiveLevel(), args.data_maker)
 	if args != None:
 		if args.command == 'learn':
